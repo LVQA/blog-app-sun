@@ -1,0 +1,23 @@
+.sign-up-card {
+  width: 500px;
+  margin: auto;
+  border: 1px solid #4ac1d4;
+  margin-top: 100px;
+}
+
+.sign-up-card .fiel {
+  display: block;
+  padding: 5px 2px 5px 2px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #4ac1d4;
+}
+
+.sign-up-card .none-border {
+  border: none;
+}
+
+.sign-up-card form {
+  text-align: center;
+}
+/*# sourceMappingURL=sign_up.css.map */

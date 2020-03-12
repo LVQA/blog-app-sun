@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 1200px;
+  margin: auto;
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+}
+
+nav {
+  font-family: 'Roboto';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #4ac1d4;
+}
+
+nav .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+nav .logo h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .menu {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  text-align: right;
+  line-height: 37px;
+}
+
+nav .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+
+nav .menu ul li {
+  padding-right: 5px;
+}
+
+nav .menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .login-index {
+  height: 25px;
+  margin: auto;
+  margin-right: 0;
+}
+/*# sourceMappingURL=main.css.map */

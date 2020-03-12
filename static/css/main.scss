@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+.card{
+    padding: 20px;
+    margin: 10px;
+}
+// nav bar 
+
+nav {
+
+    font-family: 'Roboto';
+    display: flex;
+    background-color: #4ac1d4;
+    
+    .wrap{
+        display: flex;
+    }
+    .logo{
+        flex:1;
+        h1 {
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .menu{
+        flex: 4;
+        text-align: right;
+        line-height: 37px;
+        ul {
+            display: flex;
+            list-style-type: none ;
+            float: right;
+            li{
+                padding-right: 5px;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .login-index {
+        height: 25px;
+        margin: auto;
+        margin-right: 0;
+    }
+}
