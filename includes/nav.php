@@ -43,9 +43,16 @@ if (isset($_GET['id'])) {
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Xin chào <span><img width="20px" src="static/images/<?php echo $avatar ?>" alt=""></span> <?php echo $name ?></a></li>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="includes/logout.php">Logout</a></li>
+                    <li><a href="<?php echo BASE_URL."admin/user_profile.php?id=".$user_id ?>">Xin chào 
+                    <span><img width="20px" src="<?php  echo BASE_URL ?>static/images/<?php echo $avatar ?>" alt=""></span> 
+                    <?php echo $name ?></a>
+
+                        <ul class="submenu">
+                        <li><a href="<?php echo BASE_URL ?>login.php">Login</a></li>
+                        <li><a href="<?php  echo BASE_URL ?>includes/logout.php">Logout</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </div>
             </div>

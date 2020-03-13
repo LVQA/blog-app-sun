@@ -1,0 +1,3 @@
+-note 
+ - lỗi khi refrest trang dashboard.php sẽ tự động tạo 1 entry khác 
+ - mysqli_fetch_all vs mysqli_fetch_array

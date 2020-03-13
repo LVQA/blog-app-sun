@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto';
 }
 
 .wrap {
@@ -67,5 +68,59 @@ nav .login-index {
   height: 25px;
   margin: auto;
   margin-right: 0;
+}
+
+.fiel {
+  display: block;
+  padding: 5px 2px 5px 2px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #4ac1d4;
+}
+
+.upload-entry-card {
+  width: 500px;
+  margin: auto;
+}
+
+.upload-entry-card input[type="submit"] {
+  float: right;
+}
+
+.submenu {
+  display: none !important;
+}
+
+.menu > ul:hover .submenu {
+  display: block !important;
+  position: absolute;
+}
+
+.menu > ul:hover .submenu li > a {
+  background-color: #4ac1d4;
+  padding: 5px 15px;
+  line-height: 1.5em;
+  display: block;
+}
+
+.menu > ul:hover .submenu a:hover {
+  background-color: #35abbd;
+}
+
+.entry-card {
+  background-color: #e3e3e352;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.entry-card .detail {
+  font-size: 13px;
+  text-align: right;
+}
+
+.entry-card .detail h4 {
+  display: inline;
 }
 /*# sourceMappingURL=main.css.map */
