@@ -23,7 +23,7 @@
             
             <p>
                 Email: <?php echo $user['email'] ?>
-               | Follower: 
+               
             </p>
             </div>
             
@@ -35,9 +35,9 @@
         <div class="card ">
             <div class="entry-card">
             <div class="title">
-            <span class="">
+            <div class="option">
             <a href="<?php echo BASE_URL.'admin/update_user_entry.php?id='.$_GET['id'].'&update_entry='.$post['entry_id'] ?>" class="fa fa-edit btn edit"></a> 
-            <a class="fa fa-trash btn delete" href="<?php echo BASE_URL.'admin/user_profile.php?id='.$_GET['id'].'&delete_entry='.$post['entry_id'] ?>"></a></span>    
+            <a class="fa fa-trash btn delete" href="<?php echo BASE_URL.'admin/user_profile.php?id='.$_GET['id'].'&delete_entry='.$post['entry_id'] ?>"></a></div>    
             <h2><?php echo $post['title'] ?></h2>
             
             </div>

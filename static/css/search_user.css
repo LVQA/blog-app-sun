@@ -1,0 +1,74 @@
+.content {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.card.user-infor {
+  clear: both;
+  display: table;
+  background-color: #7ae2ef85;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.card.user-infor img.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+  display: table-cell;
+  margin: auto;
+}
+
+.card.user-infor .detail {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.card.user-infor .detail .title {
+  display: block;
+  text-align: left;
+  position: relative;
+}
+
+.card.user-infor .detail .title h3 {
+  display: inline-block;
+  line-height: 1.3em;
+  border-bottom: 1px solid #4ac1d4;
+  margin: unset;
+  text-align: left;
+}
+
+.card.user-infor .detail .title span {
+  display: inline-block;
+  width: 18%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  padding-top: 2px;
+  line-height: 1.3em;
+}
+
+.card.user-infor .detail .title a.btn {
+  display: block;
+  color: white;
+  background-color: #03A9F4;
+  text-align: center;
+  line-height: 1.3em;
+  padding: 5px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card.user-infor .detail .title a.btn.unfollow {
+  background-color: #e53427d1 !important;
+}
+
+input.search-fiel {
+  width: 80%;
+  border: 1px solid #4ac1d4;
+  line-height: 20px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=search_user.css.map */

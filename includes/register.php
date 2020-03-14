@@ -16,6 +16,7 @@
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
         $required = array('username','password','email');
         $image_name = basename($_FILES["fileToUpload"]["name"]);
+
         if ($password !== $confirm_password) {
             $errors[] = "Confirm password bị sai";
         }
@@ -38,7 +39,7 @@
             move_uploaded_file($_FILES['fileToUpload']['tmp_name'],$target_file);
             $query = "
                 INSERT INTO users (email,password,username,avatar,created_at,updated_at)
-                VALUE ('{$email}','{$hashpw}','{$username}','{$image_name}',now(),now())
+                VALUE ('{$email}','{$hashpw}','{$name}','{$image_name}',now(),now())
             ";
              mysqli_query($cnn,$query) or die(mysqli_error($cnn)) ;
             $success= "Đăng ký thành công. Trở vè trang <a href='index.php'> Đăng nhập</a>";

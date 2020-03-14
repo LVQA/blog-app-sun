@@ -12,6 +12,7 @@
   left: 30px;
   padding-left: 20px;
   display: table;
+  color: white;
 }
 
 .banner .infor .name {
@@ -22,7 +23,11 @@
 
 .banner .infor .name h3 {
   display: inline;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+}
+
+.banner .infor .name p {
+  font-size: 13px;
 }
 
 .banner .infor .avatar {
@@ -37,5 +42,16 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.option {
+  text-align: right;
+}
+
+.option a {
+  display: inline-block;
+  padding: 5px;
+  color: blue;
+  text-decoration: none;
 }
 /*# sourceMappingURL=user_profile.css.map */

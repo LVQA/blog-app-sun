@@ -39,7 +39,7 @@ if (isset($_GET['id'])) {
          <nav>
             <div class="wrap">
             <div class="logo">
-                <h1><a href="index.php?id=<? echo $user_id?>">Blog App</a></h1>
+                <h1><a href="<?php echo BASE_URL."dashboard.php?id=".$user_id ?>">Blog App</a></h1>
             </div>
             <div class="menu">
                 <ul>
@@ -48,7 +48,7 @@ if (isset($_GET['id'])) {
                     <?php echo $name ?></a>
 
                         <ul class="submenu">
-                        <li><a href="<?php echo BASE_URL ?>login.php">Login</a></li>
+                        <li><a href="<?php echo BASE_URL."admin/search_user.php?id=".$user_id ?>">Search user</a></li>
                         <li><a href="<?php  echo BASE_URL ?>includes/logout.php">Logout</a></li>
                         </ul>
                     </li>

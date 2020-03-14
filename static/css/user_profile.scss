@@ -10,13 +10,17 @@
         left: 30px;
         padding-left: 20px;
         display: table;
+        color: white;
         .name {
             display: table-cell;
             padding-left: 20px;
             vertical-align: middle;
             h3{
                 display: inline;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid white;
+            }
+            p {
+                font-size: 13px;
             }
         }
         .avatar{
@@ -32,4 +36,13 @@
         }
     }
     
+}
+.option {
+    text-align: right;
+    a{
+        display: inline-block;
+        padding: 5px;
+        color: blue;
+        text-decoration: none;
+    }
 }
